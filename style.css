@@ -355,9 +355,15 @@ nav ul a{
 }
 .histoire-container{
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
+    justify-content: center;
+}
+.histoire-container-2{
+    display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .histoire-text{
     height: 100%;
