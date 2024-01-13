@@ -543,3 +543,33 @@ nav ul a{
     width: 44%;
   }
 }
+
+.quotidien-citation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+
+  p{
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #gui{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    }
+  .gui{
+    font-size: 300px;
+  }
+  #bora{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: end;
+    margin-right: 80px;
+  }
+}
