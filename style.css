@@ -341,7 +341,7 @@ nav ul a{
 }
 
 
-.intro-video{
+.intro-video, .carriere-video{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -373,7 +373,7 @@ nav ul a{
 }
 
 .audio-container{
-    background-color: rgba(220, 76, 83, 0.485);
+    background-color: rgba(126, 53, 53, 0.218);
     padding: 10px;
     border-radius: 20px;
 }
@@ -413,4 +413,133 @@ nav ul a{
     gap: 20px;
  
     gap: 20px
+}
+.carriere-video a{
+  top:24px
+}
+
+
+.carriere-graph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.carriere-graph-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   
+    ;
+}
+.carriere-graph p{
+  width: 50%;
+}
+.carriere-graph a{
+  top:0
+}
+.carriere-champions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+ 
+
+}
+
+.carriere-champions img{
+  width: 57%;
+}
+.carriere-champions a{
+  top: 0;
+}
+.carriere-audio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  a{
+    top: 224px;
+  }
+}
+.carriere-audio-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  p{
+    width: 50%;
+  }
+}
+
+.quotidien-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  a{
+    top: 0;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .quotidien-content{
+    margin: 0 auto;
+  }
+  img{
+    border-radius: 15px;
+  }
+}
+
+.quotidien-audio{
+  background-image: url('win.png');
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+
+  audio{
+    margin-top: 390px
+  }
+ 
+}
+
+.quotidien-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  a{
+    top: 230px;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .quotidien-content{
+    margin: 0 auto;
+  }
+  img{
+    border-radius: 15px;
+  }
+  .quotidien-text-content{
+    display: flex;
+    justify-content: space-around;
+  }
+  p{
+    width: 44%;
+  }
 }
