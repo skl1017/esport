@@ -224,10 +224,13 @@ nav ul a{
     align-items: center;
 }
 .histoire-text{
-    height: 100%;
     display: flex;
-    align-items: center;
-    width: 50%;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.histoire-text p{
+  width: 50%;
 }
 
 .audio-container{
@@ -454,7 +457,7 @@ nav ul a{
   }
 }
 
-.pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro{
+.pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -587,5 +590,20 @@ ul{
   }
 }
 
+.histoire-audio{
+  background-image: url('histoire.png');
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
 
+  a{
+    top: 12%;
+  }
+
+  
+  audio{
+    margin-top: 200px;
+    scale: 1.5;
+  }
+}
 
