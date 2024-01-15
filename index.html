@@ -18,6 +18,8 @@
             <li><a href="#">02</a></li>
             <li><a href="#">03</a></li>
             <li><a href="#">04</a></li>
+            <li><a href="#">05</a></li>
+            <li><a href="#">06</a></li>
           
         </ul>
     </nav>
@@ -213,7 +215,11 @@
         <section class='carriere-graph'>
 
           <div class='carriere-graph-content'>
-              <img src='graph_age.svg'></img>
+              <div>
+                <h2>MOYENNE AGE SPORTS</h2>
+                <img src='graph_age.svg'></img>
+              </div>
+
               <p>Dans un PSD Bank Dome rempli de par plus de 11 000 personnes, Alexis Bernier, sa tignasse blonde et ses lunettes vissées sur le nez, soulève le trophée de champion du monde de Rocket League. <br/><br/>
                 À seulement 16 ans, 4 mois et 19 jours, celui que l’on appelle Zen dans le milieu de l’esport est sur le toit du Rocket League mondial. Une anomalie ? Eh bien, pas tellement.
               
@@ -288,7 +294,32 @@
       <section class='quotidien-container'>
         <div class='quotidien-content'>
           <h2>UNE GAMING HOUSE : LA TEAM LIQUID</h2>
-          <img src='liquid.png'></img>
+          <div class="image-liquid-container">
+            <div class="img-liquid img1" onmouseover="texte(1)"></div>
+            <div class="img-liquid img2" onmouseover="texte(2)"></div>
+            <div class="img-liquid img3" onmouseover="texte(3)"></div>
+            <div class="img-liquid img4" onmouseover="texte(4)"></div>
+          </div>
+          
+            <div class="text-liquid-container">
+              <div class="text-liquid">
+                <p>LOCAL D’ENTRAÎNEMENT<br/>
+                  DE LA TEAM LIQUID</p>
+              </div>
+              <div class="text-liquid">
+                <p>CHAMBRE DE RUIZ<br/>
+                  JOUEUR DE LA TEAM LIQUID</p>
+                
+              </div>
+              <div class="text-liquid">
+                <p>LE SALON DE LA <br/>
+                TEAM LIQUID</p>
+              </div>
+              <div class="text-liquid">
+                <p>LE GARDE MANGER DE<br/>
+                  LA TEAM LIQUID : CHIPS, PÂTES ET RED BULL</p>
+              </div>
+            </div>
         </div>
         <a href='#quotidien-text'><span class="material-symbols-outlined">
           expand_more
@@ -456,12 +487,24 @@
               Votre navigateur ne supporte pas l'élément audio.
           </audio>
           </div>
-          <a href='#depression'><span class="material-symbols-outlined">
+          <a href='#pression-shox'><span class="material-symbols-outlined">
             expand_more
             </span>
           </a>
         </section>
 
+      </article>
+
+      <article class id='pression-shox'>
+        <div id='pression-shox'></div>
+        <section class='pression-shox'>
+            <img src='shox.png'></img>
+            <a href='#depression'><span class="material-symbols-outlined">
+              expand_more
+              </span>
+            </a>
+        </section>
+        
       </article>
 
       <article class=' hidden'>
@@ -521,7 +564,16 @@
 <script>
  
 
-
+ function texte(num) {
+    var texts = document.querySelectorAll('.text-liquid p');
+    texts.forEach((text, index) => {
+      if (index + 1 === num) {
+        text.style.opacity = '1';
+      } else {
+        text.style.opacity = '0';
+      }
+    });
+  }
 
 
 

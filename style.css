@@ -292,13 +292,19 @@ nav ul a{
     align-items: center;
     width: 100%;
    
-    ;
+    h2{
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    img{
+      width: 70%;
+    }
 }
 .carriere-graph p{
   width: 50%;
 }
 .carriere-graph a{
-  top:0
+  top: 6%;
 }
 .carriere-champions{
   display: flex;
@@ -389,10 +395,14 @@ nav ul a{
   align-items: center;
   width: 100%;
   flex-direction: column;
+  background-size: cover;
 
   audio{
     margin-top: 550px;
     scale: 1.5;
+  }
+  a{
+    top: 5%;
   }
  
 }
@@ -457,7 +467,7 @@ nav ul a{
   }
 }
 
-.pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio{
+.pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio, .pression-shox{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -489,23 +499,27 @@ nav ul a{
   .pression-tweet-content{
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     gap: 35px;
 
     p{
       width: 45%;
     }
     .pression-tweet-content-tweet p{
-      text-align: center;
+    
       font-size: 15px;
       width: 100%;
+      margin-top: 15px;
     }
     
   }
 }
 
 .pression-tweet a{
-  top: 12%;
+ 
+}
+.pression-tweet img{
+  width: 75%;
 }
 
 ul{
@@ -607,3 +621,61 @@ ul{
   }
 }
 
+
+.image-liquid-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Replace 300px with the height you want */
+  display: flex;
+}
+
+.image-liquid-container .img-liquid {
+  width: 25%;
+  height: 100%;
+  filter: brightness(0.7); /* Default value, adjust according to your preferences */
+  transition: filter 0.3s;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.img1 {
+  background-image: url(./1_rec.jpg);
+}
+.img2 {
+  background-image: url(./2_rec.jpg);
+}
+.img3 {
+  background-image: url(./3_rec.jpg);
+}
+.img4 {
+  background-image: url(./4_rec.jpg);
+}
+
+.image-liquid-container .img-liquid:hover {
+  filter: brightness(1);
+}
+
+.text-liquid-container {
+  display: flex;
+  width: 100%;
+}
+.text-liquid-container .text-liquid {
+  width: 25%;
+}
+.text-liquid-container .text-liquid p {
+  margin-top: 15px;
+  margin-left: 10%;
+  opacity: 0;
+  color: #E24E56;
+  transition: opacity 0.7s ease;
+  font-family: 'Oswald'; /* Réduisez la durée de transition à 0.5s pour une apparition plus rapide */
+}
+
+.pression-shox img{
+  width: 60%;
+}
+.pression-shox a{
+  top: 6%;
+}
