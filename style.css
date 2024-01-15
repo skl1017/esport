@@ -467,12 +467,49 @@ nav ul a{
   }
 }
 
-.quotidien-image p{
-  text-align: right;
-  padding: 20px 0;
+.quotidien-image{
+  .quotidien-image-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    text-align: right;
+    padding: 20px 0;
+  }
+  img{
+    width: 80% !important;
+  }
 }
 
-.pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio, .pression-shox, .quotidien-image, .depression-image, .depression-audio, .carriere-text{
+.depression-image img{
+  width: 80% !important;
+}
+.quotidien-text2{
+  background-image: url('manette.png');
+  background-position: left center;
+}
+
+.depression-text a{
+  top: 12% !important;
+}
+
+.salaire{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 50px;
+  p{
+    width: 100% !important;
+  }
+}
+.salaire img{
+  width: 50% !important;
+  border-radius: 0 !important;
+}
+.pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio, .pression-shox, .quotidien-image, .depression-image, .depression-audio, .carriere-text, .quotidien-text2
+,.depression-text, .depression-interview-content{
   display: flex;
   justify-content: center;
   align-items: center;
