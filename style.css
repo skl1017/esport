@@ -509,9 +509,13 @@ nav ul a{
   border-radius: 0 !important;
 }
 
-
+.apres-espoir{
+  background-image: url('espoir.png');
+  background-position: center center;
+  background-size: cover;
+}
 .pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio, .pression-shox, .quotidien-image, .depression-image, .depression-audio, .carriere-text, .quotidien-text2
-,.depression-text, .depression-interview-content, .apres-image, .apres-text{
+,.depression-text, .depression-interview-content, .apres-image, .apres-text, .apres-espoir, .apres-citation{
   display: flex;
   justify-content: center;
   align-items: center;
