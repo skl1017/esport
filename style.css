@@ -508,8 +508,10 @@ nav ul a{
   width: 50% !important;
   border-radius: 0 !important;
 }
+
+
 .pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio, .pression-shox, .quotidien-image, .depression-image, .depression-audio, .carriere-text, .quotidien-text2
-,.depression-text, .depression-interview-content{
+,.depression-text, .depression-interview-content, .apres-image, .apres-text{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -754,4 +756,16 @@ ul{
   a{
     top: 16%;
   }
+}
+
+.apres-image-content{
+  display: flex; 
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+
+  img{
+    width: 50%;
+  }
+ 
 }
