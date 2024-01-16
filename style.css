@@ -515,7 +515,7 @@ nav ul a{
   background-size: cover;
 }
 .pression-image, .pression-tweet, .pression-text, .pression-audio, .depression-intro, .histoire-audio, .pression-shox, .quotidien-image, .depression-image, .depression-audio, .carriere-text, .quotidien-text2
-,.depression-text, .depression-interview-content, .apres-image, .apres-text, .apres-espoir, .apres-citation{
+,.depression-text, .depression-interview-content, .apres-image, .apres-text, .apres-espoir, .apres-citation, .apres-conclusion{
   display: flex;
   justify-content: center;
   align-items: center;
